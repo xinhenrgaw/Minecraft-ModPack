@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "origins": [
+        "modpack:holy_knight",
+        "modpack:magician",
+        "modpack:berserkers",
+        "modpack:warrior"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "powers": [],
+    "icon": {
+        "item": "irons_spellbooks:electromancer_helmet"
+    },
+    "order": 4,
+    "impact": 1,
+    "upgrades": [],
+    "name": "origins.modpack.magician.name",
+    "description": "origins.modpack.magician.description"
+}

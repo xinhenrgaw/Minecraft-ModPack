@@ -1,0 +1,10 @@
+{
+    "origins.modpack.berserkers.name": "狂战士",
+    "origins.modpack.berserkers.description": "狂战士简介",
+    "origins.modpack.holy_knight.name":"圣骑士",
+    "origins.modpack.holy_knight.description": "圣骑士简介",
+    "origins.modpack.magician.name":"魔法使",
+    "origins.modpack.magician.description":"魔法使简介",
+    "origins.modpack.warrior.name":"战士",
+    "origins.modpack.warrior.description": "战士简介"
+}

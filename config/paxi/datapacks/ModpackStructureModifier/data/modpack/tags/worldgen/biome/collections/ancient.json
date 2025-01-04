@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "wythers:ancient_copper_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_emerald_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_golden_beech_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_moss_forest",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_mossy_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_oak_swamp",
+      "required": false
+    },
+    {
+      "id": "wythers:ancient_taiga",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "powers": [],
+    "icon": {
+        "item": "minecraft:iron_sword"
+    },
+    "order": 4,
+    "impact": 1,
+    "upgrades": [],
+    "name": "origins.modpack.warrior.name",
+    "description": "origins.modpack.warrior.description"
+}

@@ -12,9 +12,9 @@
 # Mods
 !/mods/
 ## 白名单
-/mods/*
+# /mods/*
 
 # Config
 !/config/
 ## 白名单
-/config/*
+# /config/*

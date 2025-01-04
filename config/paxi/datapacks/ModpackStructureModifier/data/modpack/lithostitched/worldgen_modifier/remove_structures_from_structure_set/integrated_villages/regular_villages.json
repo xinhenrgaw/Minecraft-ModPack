@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:remove_structures_from_structure_set",
+  "structure_set": "integrated_villages:regular_villages",
+  "structures": [
+    "integrated_villages:tavern_village",
+    "integrated_villages:pirate_village",
+    "integrated_villages:mediterranean_village",
+    "integrated_villages:kutcha_village",
+    "integrated_villages:oasis_village",
+    "integrated_villages:mossy_mounds",
+    "integrated_villages:cabin_village",
+    "integrated_villages:quark/minka_village",
+    "integrated_villages:marketstead_village"
+  ]
+}

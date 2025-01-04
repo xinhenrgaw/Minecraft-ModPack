@@ -1,0 +1,189 @@
+Ancient Copper Beech Forest
+Ancient Emerald Beech Forest
+Ancient Golden Beech Forest
+Ancient Moss Forest
+Ancient Mossy Swamp
+Ancient Oak Swamp
+Ancient Taiga
+Andesite Crags
+Aspen Crags
+Autumnal Birch Forest
+Autumnal Crags
+Autumnal Flower Forest
+Autumnal Forest
+Autumnal Forest Edge
+Autumnal Plains
+Autumnal Swamp
+Ayers Rock
+Badlands Canyon
+Badlands Desert
+Badlands River
+Bamboo Jungle Canyon
+Bamboo Jungle Highlands
+Bamboo Jungle Swamp
+Bamboo Swamp
+Bayou
+Berry Bog
+Billabong
+Birch Swamp
+Birch Taiga
+Black Beach
+Black River
+Boreal Forest Red
+Boreal Forest Yellow
+Cactus Desert
+Calcite Caverns
+Calcite Coast
+Chaparral
+Coastal Mangroves
+Cold Island
+Cold Plains
+Cold Stony Shore
+Cool Forest
+Cool Forest Edge
+Cool Plains
+Cool Stony Canyons
+Cool Stony Peaks
+Crimson Tundra
+Danakil Desert
+Deep Dark Forest
+Deep Dark Incursion
+Deep Desert
+Deep Desert River
+Deep Icy Ocean
+Deep Snowy Taiga
+Deep Underground
+Deepslate Shore
+Desert Beach
+Desert Island
+Desert Lakes
+Desert Pinnacles
+Desert River
+Dripleaf Swamp
+Dry Savanna
+Dry Tropical Forest
+Dry Tropical Grassland
+Eucalyptus Deanei Forest
+Eucalyptus Jungle
+Eucalyptus Jungle Canyon
+Eucalyptus Salubris Woodland
+Eucalyptus Woodland
+Fen
+Flooded Jungle
+Flooded Rainforest
+Flooded Savanna
+Flooded Temperate Rainforest
+Flowering Pantanal
+Forbidden Forest
+Forest Edge
+Forested Highlands
+Frigid Island
+Frozen Island
+Fungous Dripstone Caves
+Giant Sequoia Forest
+Glacial Cliffs
+Granite Canyon
+Gravelly Beach
+Gravelly River
+Guelta
+Harvest Fields
+Highland Plains
+Highland Tropical Rainforest
+Highlands
+Huangshan Highlands
+Humid Tropical Grassland
+Ice Cap
+Icy Crags
+Icy Ocean
+Icy River
+Icy Shore
+Icy Volcano
+Jacaranda Savanna
+Jade Highlands
+Jungle Canyon
+Jungle Island
+Jungle River
+Kwongan Heath
+Lantern River
+Lapacho Plains
+Larch Taiga
+Lichenous Caves
+Lichenous Dripstone Caves
+Lush Dripstone Caves
+Lush Fungous Dripstone Caves
+Lush Shroom Caves
+Maple Mountains
+Marsh
+Mediterranean Island
+Mediterranean Island Thermal Springs
+Mossy Caves
+Mossy Dripstone Caves
+Mud Pools
+Mushroom Caves
+Mushroom Island
+Old Growth Taiga Crags
+Old Growth Taiga Swamp
+Outback
+Outback Desert
+Pantanal
+Phantasmal Forest
+Phantasmal Swamp
+Pine Barrens
+Red Desert
+Red Rock Canyon
+Sakura Forest
+Salt Lakes Pink
+Salt Lakes Turquoise
+Salt Lakes White
+Sand Dunes
+Sandy Jungle
+Savanna Badlands
+Savanna Basaltic Incursions
+Savanna River
+Scrub Forest
+Scrubland
+Snowy Bog
+Snowy Canyon
+Snowy Fen
+Snowy Peaks
+Snowy Thermal Taiga
+Snowy Tundra
+Sparse Bamboo Jungle
+Sparse Eucalyptus Jungle
+Sparse Eucalyptus Woodland
+Spring Flower Fields
+Spring Flower Forest
+Stony Canyon
+Subtropical Forest
+Subtropical Forest Edge
+Subtropical Grassland
+Taiga Crags
+Tangled Forest
+Temperate Island
+Temperate Rainforest
+Temperate Rainforest Crags
+Tepui
+Thermal Taiga
+Thermal Taiga Crags
+Tibesti Mountains
+Tropical Beach
+Tropical Forest
+Tropical Forest Canyon
+Tropical Forest River
+Tropical Grassland
+Tropical Island
+Tropical Rainforest
+Tropical Volcano
+Tsingy Forest
+Tundra
+Underground
+Volcanic Chamber
+Volcanic Crater
+Volcano
+Warm Birch Forest
+Warm Stony Shore
+Waterlily Swamp
+Windswept Jungle
+Wistman Woods
+Wooded Desert
+Wooded Savanna
