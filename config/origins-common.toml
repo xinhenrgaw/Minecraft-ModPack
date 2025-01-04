@@ -1,6 +1,39 @@
 
 [origins]
 
+	[origins."modpack:example"]
+		enabled = true
+
+	[origins."origins:arachnid"]
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+		"origins:master_of_webs" = true
+		enabled = false
+		"origins:climbing" = true
+
+	[origins."origins:enderian"]
+		"origins:water_vulnerability" = true
+		"origins:throw_ender_pearl" = true
+		"origins:pumpkin_hate" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+		enabled = false
+		"origins:extra_reach" = true
+
+	[origins."origins:feline"]
+		"origins:cat_vision" = true
+		"origins:velvet_paws" = true
+		"origins:fall_immunity" = true
+		"origins:weak_arms" = true
+		"origins:nine_lives" = true
+		enabled = false
+		"origins:sprint_jump" = true
+		"origins:scare_creepers" = true
+
+	[origins."origins:human"]
+		enabled = true
+
 	[origins."origins:shulk"]
 		"origins:strong_arms" = true
 		"origins:no_shield" = true
@@ -9,6 +42,12 @@
 		"origins:natural_armor" = true
 		enabled = false
 		"origins:shulker_inventory" = true
+
+	[origins."modpack:warrior"]
+		enabled = true
+
+	[origins."modpack:magician"]
+		enabled = true
 
 	[origins."origins:merling"]
 		"origins:air_from_potions" = true
@@ -21,14 +60,6 @@
 		enabled = false
 		"origins:aquatic" = true
 
-	[origins."origins:arachnid"]
-		"origins:carnivore" = true
-		"origins:fragile" = true
-		"origins:arthropod" = true
-		"origins:master_of_webs" = true
-		enabled = false
-		"origins:climbing" = true
-
 	[origins."origins:phantom"]
 		"origins:phasing" = true
 		"origins:fragile" = true
@@ -39,15 +70,6 @@
 		enabled = false
 		"origins:burn_in_daylight" = true
 		"origins:phantomize_overlay" = true
-
-	[origins."origins:enderian"]
-		"origins:water_vulnerability" = true
-		"origins:throw_ender_pearl" = true
-		"origins:pumpkin_hate" = true
-		"origins:ender_particles" = true
-		"origins:damage_from_potions" = true
-		enabled = false
-		"origins:extra_reach" = true
 
 	[origins."origins:blazeborn"]
 		"origins:water_vulnerability" = true
@@ -60,16 +82,6 @@
 		"origins:damage_from_potions" = true
 		enabled = false
 
-	[origins."origins:feline"]
-		"origins:cat_vision" = true
-		"origins:velvet_paws" = true
-		"origins:fall_immunity" = true
-		"origins:weak_arms" = true
-		"origins:nine_lives" = true
-		enabled = false
-		"origins:sprint_jump" = true
-		"origins:scare_creepers" = true
-
 	[origins."origins:elytrian"]
 		"origins:more_kinetic_damage" = true
 		"origins:elytra" = true
@@ -79,9 +91,6 @@
 		"origins:launch_into_air" = true
 		enabled = false
 
-	[origins."origins:human"]
-		enabled = true
-
 	[origins."origins:avian"]
 		"origins:fresh_air" = true
 		"origins:vegetarian" = true
@@ -90,19 +99,4 @@
 		"origins:tailwind" = true
 		"origins:like_air" = true
 		enabled = false
-
-	[origins."modpack:example"]
-		enabled = true
-
-	[origins."modpack:holy_knight"]
-		enabled = true
-
-	[origins."modpack:magician"]
-		enabled = true
-
-	[origins."modpack:berserkers"]
-		enabled = true
-
-	[origins."modpack:warrior"]
-		enabled = true
 

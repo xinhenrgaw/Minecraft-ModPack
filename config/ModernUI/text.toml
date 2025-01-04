@@ -18,7 +18,7 @@
 	baselineShift = 7.0
 	#Control the text shadow offset for vanilla text rendering, in GUI scaled pixels.
 	#Range: 0.20000000298023224 ~ 2.0
-	shadowOffset = 0.67
+	shadowOffset = 0.5
 	#Control the text outline offset for vanilla text rendering, in GUI scaled pixels.
 	#Range: 0.20000000298023224 ~ 2.0
 	outlineOffset = 0.5
@@ -78,6 +78,8 @@
 	#Otherwise, it uses nearest-neighbor or bilinear sampling based on texel density.
 	#This option only applies to TrueType fonts.
 	allowSDFTextIn2D = true
+	#When enabled, the outline of the experience level text will be tweaked.
+	tweakExperienceText = true
 	#Control the anti-aliasing of raw glyph rasterization.
 	antiAliasing = true
 	#Control the FreeType linear metrics and font hinting of raw glyph metrics.
@@ -88,8 +90,6 @@
 	#Recommend setting a higher value on high-res monitor and powerful PC hardware.
 	#Range: 4 ~ 10
 	minPixelDensityForSDF = 4
-	#When enabled, the outline of the experience level text will be tweaked.
-	tweakExperienceText = true
 	#Enable linear sampling for A8 font atlases with mipmaps, mag filter will be always NEAREST.
 	#We prefer computeDeviceFontSize and allowSDFTextIn2D, then setting this to false can improve performance.
 	#If either of the above two is false or Shaders are active, then setting this to true can improve quality.

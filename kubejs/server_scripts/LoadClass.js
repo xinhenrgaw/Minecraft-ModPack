@@ -58,4 +58,9 @@ const LivingAttackEvent = Java.loadClass("net.minecraftforge.event.entity.living
 /**
  * Java Util
  */
-// const JavaMath = Java.loadClass("java.lang.Math");
+const JavaMap = Java.loadClass("java.util.Map");
+const UtilsJS = Java.loadClass("dev.latvian.mods.kubejs.util.UtilsJS");
+/**
+ * TerraBlender
+ */
+const Regions = Java.loadClass("terrablender.api.Regions");

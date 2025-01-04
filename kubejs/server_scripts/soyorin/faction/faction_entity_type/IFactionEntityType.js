@@ -1,7 +1,0 @@
-/**
- * @interface
- */
-function $IFactionEntityType() {
-  
-}
-
