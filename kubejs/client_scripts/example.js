@@ -4,3 +4,4 @@
 
 // console.info('Hello, World! (Loaded client scripts)')
 
+// 纯测试
