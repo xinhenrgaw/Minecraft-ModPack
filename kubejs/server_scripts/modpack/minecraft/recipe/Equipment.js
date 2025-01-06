@@ -1,0 +1,72 @@
+/**
+ * 工具、盔甲配方修改
+ */
+
+// 删除工具配方
+ServerEvents.recipes(event => {
+  const Traits = ["stone", "iron", "golden", "diamond", "netherite"];
+  const Tools = ["axe", "hoe", "pickaxe", "shovel", "sword"];
+  const BiFuncId = (traits, tool) => `minecraft:${traits}_${tool}`;
+
+  Traits.forEach(trait => {
+    Tools.forEach(tool => {
+      event.remove({ id: BiFuncId(trait, tool) });
+    })
+  })
+})
+
+// 删除盔甲配方
+ServerEvents.recipes(event => {
+  const Traits = ["leather", "chainmail", "iron", "golden", "diamond", "netherite"];
+  const ArmorTypes = ["helmet", "chestplate", "leggings", "boots"];
+  const BiFuncId = (traits, tool) => `minecraft:${traits}_${tool}`;
+
+  Traits.forEach(trait => {
+    ArmorTypes.forEach(armorType => {
+      event.remove({ id: BiFuncId(trait, armorType) });
+    })
+  })
+})
+
+/**
+ * 工具配方替换
+ */
+ServerEvents.recipes(event => {
+  // 木斧 -> 木短柄斧
+  event.replaceOutput(
+    { id: "minecraft:wooden_axe" },
+    "*",
+    Item.of('tconstruct:hand_axe', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:3,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:stripping"}],tic_persistent:{},tic_stats:{"tconstruct:attack_damage":6.0f,"tconstruct:attack_speed":0.9f,"tconstruct:durability":60.0f,"tconstruct:mining_speed":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+  // 木镐 -> 木镐
+  event.replaceOutput(
+    { id: "minecraft:wooden_pickaxe" },
+    "*",
+    Item.of('tconstruct:pickaxe', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:3,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:pierce"}],tic_persistent:{},tic_stats:{"tconstruct:attack_damage":1.0f,"tconstruct:attack_speed":1.2f,"tconstruct:durability":60.0f,"tconstruct:mining_speed":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+  // 木镰 -> 短刃镰
+  event.replaceOutput(
+    { id: "minecraft:wooden_hoe" },
+    "*",
+    Item.of('tconstruct:kama', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:ancient_hide"],tic_modifiers:[{level:2,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:fortune"},{level:1,name:"tconstruct:tilling"},{level:1,name:"tconstruct:shears"},{level:1,name:"tconstruct:harvest"}],tic_multipliers:{"tconstruct:attack_damage":0.5f},tic_persistent:{},tic_stats:{"tconstruct:attack_damage":0.5f,"tconstruct:attack_speed":1.6f,"tconstruct:durability":60.0f,"tconstruct:mining_speed":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+  // 木锹 -> 凿石锹
+  event.replaceOutput(
+    { id: "minecraft:wooden_shovel" },
+    "*",
+    Item.of('tconstruct:pickadze', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:3,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:pathing"}],tic_multipliers:{"tconstruct:attack_damage":1.15f,"tconstruct:durability":1.3f,"tconstruct:mining_speed":0.75f},tic_persistent:{},tic_stats:{"tconstruct:attack_damage":0.575f,"tconstruct:attack_speed":1.3f,"tconstruct:durability":78.0f,"tconstruct:mining_speed":1.5f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+  // 木剑 -> 木剑 
+  event.replaceOutput(
+    { id: "minecraft:wooden_sword" },
+    "*",
+    Item.of('tconstruct:sword', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:3,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:silky_shears"}],tic_multipliers:{"tconstruct:durability":1.1f,"tconstruct:mining_speed":0.5f},tic_persistent:{},tic_stats:{"tconstruct:attack_damage":3.0f,"tconstruct:attack_speed":1.6f,"tconstruct:durability":66.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+  // 弩 -> 木弩
+  event.replaceOutput(
+    { "id": "minecraft:crossbow" },
+    "*",
+    Item.of('tconstruct:crossbow', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:string"],tic_modifiers:[{level:2,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:stringy"}],tic_multipliers:{"tconstruct:durability":2.0f},tic_persistent:{},tic_stats:{"tconstruct:durability":120.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+  );
+})
+
