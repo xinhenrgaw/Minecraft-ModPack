@@ -32,6 +32,18 @@ ServerEvents.recipes(event => {
  * 工具配方替换
  */
 ServerEvents.recipes(event => {
+  // 盾 -> 铁镶板盾牌 
+  event.replaceOutput(
+    { id: "minecraft:shield" },
+    "*",
+    Item.of('tconstruct:plate_shield', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:iron"],tic_modifiers:[{level:1,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:projectile_protection"},{level:1,name:"tconstruct:blocking"}],tic_persistent:{},tic_stats:{"tconstruct:block_amount":100.0f,"tconstruct:block_angle":180.0f,"tconstruct:durability":270.0f},tic_volatile_data:{defense:3,upgrades:2}}')
+  );
+    // 弩 -> 木弩
+    event.replaceOutput(
+      { "id": "minecraft:crossbow" },
+      "*",
+      Item.of('tconstruct:crossbow', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:string"],tic_modifiers:[{level:2,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:stringy"}],tic_multipliers:{"tconstruct:durability":2.0f},tic_persistent:{},tic_stats:{"tconstruct:durability":120.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
+    );
   // 木斧 -> 木短柄斧
   event.replaceOutput(
     { id: "minecraft:wooden_axe" },
@@ -61,12 +73,6 @@ ServerEvents.recipes(event => {
     { id: "minecraft:wooden_sword" },
     "*",
     Item.of('tconstruct:sword', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:3,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:silky_shears"}],tic_multipliers:{"tconstruct:durability":1.1f,"tconstruct:mining_speed":0.5f},tic_persistent:{},tic_stats:{"tconstruct:attack_damage":3.0f,"tconstruct:attack_speed":1.6f,"tconstruct:durability":66.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
-  );
-  // 弩 -> 木弩
-  event.replaceOutput(
-    { "id": "minecraft:crossbow" },
-    "*",
-    Item.of('tconstruct:crossbow', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:wood","tconstruct:wood","tconstruct:string"],tic_modifiers:[{level:2,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:stringy"}],tic_multipliers:{"tconstruct:durability":2.0f},tic_persistent:{},tic_stats:{"tconstruct:durability":120.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
   );
   // 石斧 -> 石短柄斧
   event.replaceOutput(
@@ -98,5 +104,6 @@ ServerEvents.recipes(event => {
     "*",
     Item.of('tconstruct:sword', '{Damage:0,tic_broken:0b,tic_materials:["tconstruct:rock","tconstruct:wood","tconstruct:wood"],tic_modifiers:[{level:1,name:"tconstruct:stonebound"},{level:2,name:"tconstruct:cultivated"},{level:1,name:"tconstruct:silky_shears"}],tic_multipliers:{"tconstruct:durability":1.1f,"tconstruct:mining_speed":0.5f},tic_persistent:{},tic_stats:{"tconstruct:attack_damage":4.0f,"tconstruct:attack_speed":1.6f,"tconstruct:durability":143.0f,"tconstruct:harvest_tier":"minecraft:stone","tconstruct:mining_speed":2.0f},tic_volatile_data:{abilities:1,upgrades:3}}')
   );
+  
 })
 

@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iii"
+	group: ""
+	icon: "tconstruct:smeltery_controller"
+	id: "344A961FE39E04A2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "166786448DBAEBA6"
+			tasks: [{
+				id: "2FDD89B7C41568C3"
+				item: {
+					Count: 1
+					id: "tconstruct:materials_and_you"
+					tag: {
+						mantle: {
+							book: {
+								current_page: "tools.tconstruct.dagger"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B23BBE5A27E74D"]
+			id: "64FB0CE27A01B2D4"
+			tasks: [
+				{
+					id: "5CAF81D659405FE2"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "04B1C01A11E5C23E"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["166786448DBAEBA6"]
+			id: "55B23BBE5A27E74D"
+			tasks: [{
+				id: "1A5241FC5818C4A6"
+				type: "checkmark"
+			}]
+			title: "配方变化"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "匠魂III"
+}
