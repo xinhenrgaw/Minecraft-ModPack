@@ -2,14 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "iii"
-	group: ""
+	group: "366BD67D115A7674"
 	icon: "tconstruct:smeltery_controller"
 	id: "344A961FE39E04A2"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"配方变化：原版工具不再能合成，木、石制工具配方合成产物以匠魂对应工具替代。"
+				""
+				"合成一把石镐看看?"
+			]
 			id: "166786448DBAEBA6"
+			subtitle: "打开匠魂的大门"
 			tasks: [{
 				id: "2FDD89B7C41568C3"
 				item: {
@@ -26,37 +32,174 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["55B23BBE5A27E74D"]
+			dependencies: ["166786448DBAEBA6"]
+			icon: "tconstruct:part_builder"
 			id: "64FB0CE27A01B2D4"
+			subtitle: "工具制造的第一步"
 			tasks: [
-				{
-					id: "5CAF81D659405FE2"
-					item: "tconstruct:part_builder"
-					type: "item"
-				}
 				{
 					id: "04B1C01A11E5C23E"
 					item: "tconstruct:tinker_station"
 					type: "item"
 				}
+				{
+					id: "570F442FFC08DCAE"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["166786448DBAEBA6"]
-			id: "55B23BBE5A27E74D"
+			id: "65B03FD8D3EC1FEE"
+			subtitle: "合成《入门熔炼术》指南书"
 			tasks: [{
-				id: "1A5241FC5818C4A6"
-				type: "checkmark"
+				id: "688FAD0F556C865C"
+				item: "tconstruct:puny_smelting"
+				type: "item"
 			}]
-			title: "配方变化"
 			x: 2.0d
-			y: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65B03FD8D3EC1FEE"]
+			icon: "tconstruct:seared_melter"
+			id: "3C58CF6F4A261AA7"
+			subtitle: "基础熔炼"
+			tasks: [
+				{
+					id: "4D3456452D9ED788"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "7E9DAC2D1EC83139"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "0E6B8A596282F0BE"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "52F31615C4C1F8B4"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "08D2B961B15CB053"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C58CF6F4A261AA7"]
+			id: "72437980216E29C2"
+			subtitle: "熔炼进阶"
+			tasks: [{
+				id: "0688286F701020D3"
+				item: "tconstruct:mighty_smelting"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C58CF6F4A261AA7"]
+			icon: "tconstruct:ingot_sand_cast"
+			id: "00E3F36E88A8749E"
+			subtitle: "一次性的铸模"
+			tasks: [{
+				id: "70D60307FA183AA2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/single_use"
+					}
+				}
+				title: "Any #tconstruct:casts/single_use"
+				type: "item"
+			}]
+			title: "沙子铸模"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C58CF6F4A261AA7"]
+			icon: "tconstruct:ingot_cast"
+			id: "4255C9D467BCF27C"
+			subtitle: "金制铸模"
+			tasks: [{
+				id: "737A7005442B4E09"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+				title: "闪亮铸模"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72437980216E29C2"]
+			id: "2D754221140AFFE1"
+			subtitle: "全能熔炼"
+			tasks: [{
+				id: "3C65BCA046A7557B"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["166786448DBAEBA6"]
+			id: "20BC173785078039"
+			tasks: [{
+				id: "2E83A92BBB0BAC19"
+				item: "tconstruct:tinkers_gadgetry"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["166786448DBAEBA6"]
+			id: "0E74D9BEE151CCBD"
+			tasks: [{
+				id: "7A83397A4CD7C14C"
+				item: "tconstruct:fantastic_foundry"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["166786448DBAEBA6"]
+			id: "1A821D620C6A6FD6"
+			tasks: [{
+				id: "4131BA882E96F5A0"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
 		}
 	]
-	title: "匠魂III"
+	title: "工匠学"
 }

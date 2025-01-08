@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "champions": {
-    "enable_affix_compact": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -64,5 +61,8 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
   }
 }

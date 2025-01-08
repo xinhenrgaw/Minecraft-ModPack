@@ -1,0 +1,268 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54ADD3DDD7D61BDF"
+	group: "366BD67D115A7674"
+	icon: {
+		Count: 1
+		id: "tconstruct:travelers_shield"
+		tag: {
+			Damage: 0
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					level: 1
+					name: "tconstruct:tanned"
+				}
+				{
+					level: 1
+					name: "tconstruct:blocking"
+				}
+			]
+			tic_persistent: { }
+			tic_stats: {
+				"tconstruct:block_amount": 10.0f
+				"tconstruct:block_angle": 90.0f
+				"tconstruct:durability": 200.0f
+				"tconstruct:use_item_speed": 0.8f
+			}
+			tic_volatile_data: {
+				abilities: 1
+				defense: 2
+				upgrades: 3
+			}
+		}
+	}
+	id: "54ADD3DDD7D61BDF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "tconstruct:travelers_helmet"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_modifiers: [{
+						level: 1
+						name: "tconstruct:tanned"
+					}]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:armor": 1.0f
+						"tconstruct:durability": 110.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+				}
+			}
+			id: "29E353AD349712D5"
+			subtitle: "初始的旅行者套装"
+			tasks: [
+				{
+					id: "012D478341D9865C"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_helmet"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 110.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C21F60173C43191"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:durability": 160.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "665E8596BCEDCF94"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_leggings"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [{
+								level: 1
+								name: "tconstruct:tanned"
+							}]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 4.0f
+								"tconstruct:durability": 150.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "395A9C5E7F630CFF"
+					item: {
+						Count: 1
+						id: "tconstruct:travelers_boots"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:tanned"
+								}
+								{
+									level: 1
+									name: "tconstruct:snow_boots"
+								}
+							]
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 1.0f
+								"tconstruct:durability": 130.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								defense: 2
+								"tconstruct:snow_boots": 1b
+								upgrades: 3
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29E353AD349712D5"]
+			description: [
+				"一件镶板盔甲需要基底+镶板两个部分组成，也因此它具有两个材料的特性"
+				"提示：建议制作皮革基底后多预备一些沙子铸模"
+			]
+			id: "77D0E4870E78FCA9"
+			subtitle: "皮革锁链基底"
+			tasks: [{
+				id: "61682E44683FDCC4"
+				item: {
+					Count: 1
+					id: "tconstruct:maille"
+					tag: {
+						Material: "tconstruct:leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "更好的装甲"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "1E4BF6FD5A54006C"
+			subtitle: "初始的盾牌"
+			tasks: [{
+				id: "5CF57C82BA284DA9"
+				item: {
+					Count: 1
+					id: "tconstruct:travelers_shield"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tanned"
+							}
+							{
+								level: 1
+								name: "tconstruct:blocking"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:block_amount": 10.0f
+							"tconstruct:block_angle": 90.0f
+							"tconstruct:durability": 200.0f
+							"tconstruct:use_item_speed": 0.8f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							defense: 2
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E4BF6FD5A54006C"]
+			id: "2ED5CCF27BFACA47"
+			subtitle: "更好的盾牌"
+			tasks: [{
+				id: "27823452276D7299"
+				item: {
+					Count: 1
+					id: "tconstruct:shield_core"
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+				type: "item"
+			}]
+			title: "更好的盾牌"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "装备学"
+}
